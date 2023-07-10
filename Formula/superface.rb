@@ -3,8 +3,8 @@ require "language/node"
 class Superface < Formula
   desc "Let AI connect the APIs for you"
   homepage "https://github.com/superfaceai/cli"
-  url "https://registry.npmjs.org/@superfaceai/cli/-/cli-4.0.0-beta.4.tgz"
-  sha256 "cbfb3f7e9e25fce37a445986dca31d1961143dd35829dfc3f58c2eb2fc828d7b"
+  url "https://registry.npmjs.org/@superfaceai/cli/-/cli-4.0.0-beta.5.tgz"
+  sha256 "3bf710fd07d3748706a6c0ea82bc9059b6a4a9fe495588cf00875da839e8a8c3"
   license "MIT"
 
   depends_on "node@18" => :build
