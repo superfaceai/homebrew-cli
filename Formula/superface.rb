@@ -7,7 +7,7 @@ class Superface < Formula
   sha256 "2bed6d035979365207e710e7c62993d897be92d3cc304b8a798291d0d78fbe0c"
   license "MIT"
 
-  depends_on "node@18" => :build
+  depends_on "node@18"
 
   def install
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
