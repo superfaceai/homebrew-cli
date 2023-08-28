@@ -16,6 +16,16 @@ class Superface < Formula
     deuniversalize_machos
   end
 
+  def caveats
+    "
+    Thanks for checking out Superface.ai!
+    
+    For help, run: superface --help
+    Documentation: https://sfc.is/docs
+    Questions or feedback: https://sfc.is/discussions
+    "
+  end
+
   test do
     # CLI functionalities are dependent on authentication,
     # so we're simply testing the CLI runs
